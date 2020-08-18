@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './components/Header'
-import './App.scss';
+import Portfolio from './components/Portfolio'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   constructor() {
@@ -14,6 +16,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <Header />
+      <Portfolio />
    </div>
   )};
 }
