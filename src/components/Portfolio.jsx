@@ -25,11 +25,13 @@ class Portfolio extends React.Component {
   render(){
     return (
 <div className="portfolio-grid">
-
+  <br />
+  <center><h2>Portfolio:</h2></center>
+      <CardDeck className="portfolio">
         { this.state.articles.map(articleObj => {
             return <PortfolioCard article={articleObj} key={this.state.articles.id} />
         })}
-
+</CardDeck>
 </div>
     )};
   }

@@ -14,12 +14,10 @@ class PortfolioCard extends React.Component {
     return (
 <div className="portfolio-card">
 
-<Card style={{ width: '100%', height: '100%' }}>
+<Card style={{ width: '18em', height: '100%' }}>
   <Card.Img variant="top" src={this.props.article.img} />
-  <Card.Header>
-      <small className="text-muted">{this.props.article.publication}</small>
-  </Card.Header>
   <Card.Body>
+  <Card.Subtitle>{this.props.article.publication}:</Card.Subtitle>
     <Card.Title>{this.props.article.title}</Card.Title>
     <Card.Text>
       {this.props.article.summary}
