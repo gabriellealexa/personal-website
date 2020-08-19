@@ -39,7 +39,7 @@ class Coding extends React.Component {
   <Card.Footer>
     <Card.Link href="#">Github</Card.Link>
     <Card.Link href="#">Demo</Card.Link>
-    </Card.Footer>
+    </Card.Footer> 
 </Card> 
 {' '}
 <Card className="project-card" style={{ width: '18rem', margin: '30px'}}>
@@ -47,7 +47,7 @@ class Coding extends React.Component {
     <Card.Title>Petit Bain</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">RoR, JS, React</Card.Subtitle>
     <Card.Text>
-    A web app with mutual aid resources, including bail funds, food aid, and more. Users can also save resources, organizers, and groups that they are interested in.
+    A web app with mutual aid resources, including bail funds, food aid, and more. Users can also save resources, organizers, and groups that they are interested in. Includes Auth.
     </Card.Text>
     </Card.Body>
     <Card.Footer>
