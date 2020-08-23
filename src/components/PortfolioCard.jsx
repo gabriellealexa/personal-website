@@ -24,7 +24,7 @@ class PortfolioCard extends React.Component {
     </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <center><Button variant="primary">Read More</Button></center>
+    <center><Button className="button-style" variant="primary">Read More</Button></center>
     </Card.Footer>
 </Card>
 
