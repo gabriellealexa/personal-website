@@ -1,26 +1,16 @@
 import React from 'react';
 import PortfolioCard from './PortfolioCard';
 import CardDeck from 'react-bootstrap/CardDeck';
+import articles from './articles.js';
 
 class Portfolio extends React.Component {
   constructor() {
     super()
     this.state = {
-        articles: []
+        articles: articles
       
     }
   }
-
-  componentDidMount() {
-    fetch('http://localhost:3000/articles')
-    .then(resp => resp.json())
-    .then(articlesObj => {
-        this.setState({
-            articles: articlesObj
-        })
-        console.log(this.state.articles)
-    })
-}
 
   render(){
     return (
