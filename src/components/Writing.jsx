@@ -14,11 +14,11 @@ class Writing extends React.Component {
 <div className="writing">
       <Container>
           <br />
-          <h2>about the writer:</h2>
-      You may have seen my words in Playboy, the Huffington Post, Elle, Harper's Bazaar, etc. I cover topics within sexuality, identity, and pop culture.
+          <h2>Selected Writing:</h2>
+      I cover topics within sexuality, identity, and pop/internet culture. Here, you'll find reported pieces, interviews, and essays that I've written for various digital publications. For blogs I've written on technical subjects, follow me on Medium <a href="http://medium.com/@gabalexa">here</a>.
       <br /><br />
-      My first book, titled "How To Live With The Internet And Not Let It Run Your Life", comes out in March 2021 with Smith Street Books.<br />
-      You can preorder it <a href="https://www.target.com/p/how-to-live-with-the-internet-and-not-let-it-run-your-life-by-gabrielle-alexa-noel-hardcover/-/A-81089989">here</a>.<br /><br />
+      To hire me, email me at <b>gabby (at) gabriellealexa.com</b>.
+      <br /><br />
       </Container>
     <Portfolio />
 </div>

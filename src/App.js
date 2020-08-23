@@ -1,8 +1,12 @@
 import React from 'react';
-import Header from './components/Header'
-import Content from './components/Content'
+import Welcome from './components/Welcome'
+import Nav from './components/Nav'
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Writing from './components/Writing';
+import Coding from './components/Coding';
+import About from './components/About';
 
 class App extends React.Component {
   constructor() {
@@ -13,10 +17,19 @@ class App extends React.Component {
   }
 
   render(){
+
   return (
     <div className="App">
-      <Header />
-      <Content />
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet" />
+    
+      <Router>
+        <Route path="/" component={Nav} />
+        <br />
+        <Route exact path="/" component={Welcome} />
+        <Route path="/writing" component={Writing} />
+        <Route path="/coding" component={Coding} />
+        <Route path="/about" component={About} />
+      </Router>
    </div>
   )};
 }

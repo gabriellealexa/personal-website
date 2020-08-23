@@ -14,7 +14,7 @@ class PortfolioCard extends React.Component {
     return (
 <div className="portfolio-card">
 
-<Card style={{ width: '18em', height: '100%' }}>
+<Card className="p-c">
   <Card.Img variant="top" src={this.props.article.img} />
   <Card.Body>
   <Card.Subtitle>{this.props.article.publication}:</Card.Subtitle>

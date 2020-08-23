@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Header extends React.Component {
+class Welcome extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -9,11 +9,11 @@ class Header extends React.Component {
   }
   render(){
     return (
-<div className="header">
+<div className="welcome">
     <div className="typing-header">
       Hi, I'm Gabrielle.
     </div>
 </div>
     )};
   }
-  export default Header;
+  export default Welcome;

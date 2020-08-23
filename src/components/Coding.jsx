@@ -18,12 +18,10 @@ class Coding extends React.Component {
           <br />
           <h2>about the developer:</h2>
         
-            I'm a full stack developer with an appreciation for the social elements of tech. I love how it can be used to enhance relationships, health/wellness, and advocacy.<br /><br />
-            
-            From a very young age, I fell in love with HTML, CSS, and vanilla JavaScript. I did, after all, grow up during the Neopets/Myspace era of the Internet. As a student at Laguardia Community College, I learned even more about frontend web development and the full Adobe Creative Suite. And finally, I honed those skills at Flatiron School, an immersive bootcamp that focused on Ruby, Sinatra, Ruby on Rails, vanilla JavaScript, and React.
+            I'm a full stack developer with a passion for sexual health and social justice. I love to build rich user experiences, using <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>, well-documented code. My current toolbox includes HTML, CSS, Bootstrap, Sass, JavaScript, Ruby, Ruby on Rails, PostgreSQL, and React.
             <br /><br />
             <center>
-            <Button href="#">Github</Button> <Button href="#">Medium</Button> <Button href="#">Resume</Button>
+            <Button className="button-style" href="#">Github</Button> <Button className="button-style" href="#">Medium</Button> <Button className="button-style" href="#">Resume</Button>
   </center><br /><br />
 
   <h2>current projects:</h2>
