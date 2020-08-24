@@ -14,7 +14,7 @@ class Writing extends React.Component {
 <div className="writing">
       <Container>
           <br />
-      I cover topics within sexuality, identity, and pop/internet culture. Here, you'll find reported pieces, interviews, and essays that I've written for various digital publications. For blogs I've written on technical subjects, follow me on Medium <a href="http://medium.com/@gabalexa">here</a>.
+      I cover topics within sexuality, identity, and pop/internet culture. Scroll down for reported pieces, interviews, and essays that I've written for various digital publications.
       <br /><br />
       To hire me, email me at <b>gabby (at) gabriellealexa.com</b>.
       <br /><br />

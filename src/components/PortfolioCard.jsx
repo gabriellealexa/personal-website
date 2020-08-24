@@ -18,9 +18,9 @@ class PortfolioCard extends React.Component {
   <Card.Img variant="top" src={this.props.article.img} />
   <Card.Body>
   <Card.Subtitle>{this.props.article.publication}:</Card.Subtitle>
-    <Card.Title>{this.props.article.title}</Card.Title>
+    <Card.Title><small><b> {this.props.article.title}</b></small></Card.Title>
     <Card.Text>
-      {this.props.article.summary}
+     <small></small> {this.props.article.summary}
     </Card.Text>
     </Card.Body>
     <Card.Footer>

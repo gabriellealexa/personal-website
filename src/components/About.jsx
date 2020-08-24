@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Media from 'react-bootstrap/Media';
 
 class About extends React.Component {
   constructor() {
@@ -18,7 +17,13 @@ class About extends React.Component {
       <br /><br />
       You can find my words in Playboy, the Huffington Post, Elle, Harper's Bazaar, and other digital publications. I'm currently working on my first book, <b>How To Live With The Internet And Not Let It Run Your Life</b>. It's slated for release in March 2021 with Smith Street Books. You can preorder it from Target <a href="https://www.target.com/p/how-to-live-with-the-internet-and-not-let-it-run-your-life-by-gabrielle-alexa-noel-hardcover/-/A-81089989">here</a> or from Amazon <a href="https://www.amazon.com/How-Live-Internet-Your-Life/dp/1922417033/">here</a>.
  <br /><br />
- With over 25 thousand followers on Instagram, I use social media for education, storytelling, and brand/product awareness. I've been featured in Bustle, Well and Good, and Cherry Magazine, and provided insight for Rolling Stone, Refinery29, Women's Health Magazine, and more. I am also a peer educator, leading workshops on cannabis justice, identity, and sexual wellness. 
+ With over 25 thousand followers on Instagram, I use social media for education, storytelling, and brand/product awareness. I've been featured in Bustle, Well and Good, and Cherry Magazine, and provided insight for Rolling Stone, Refinery29, Women's Health Magazine, and more. I am also a peer educator, leading workshops on cannabis justice, identity, and sexual wellness.
+ <br /><br />
+ <small><center>
+   This website was created using vanilla Javascript, React, HTML, and custom CSS. Shout-out to <a href="https://markodenic.com">Marko Denic</a> for the Code Pen that inspired my CSS typing animation.
+      <br />
+      © 2020-2021 Gabrielle Alexa Noel. All Rights Reserved.
+   </center></small>
  </Container>
  </div>
   )};
