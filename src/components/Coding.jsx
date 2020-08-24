@@ -22,7 +22,8 @@ class Coding extends React.Component {
             <br /><br />
             <center>
             <Button className="button-style" href="https://github.com/gabriellealexa">Github</Button> <Button className="button-style" href="https://medium.com/@gabalexa">Medium</Button> <Button className="button-style" href="http://code.gabriellealexa.com/resume.pdf">Resume</Button>
-  </center><br /><br />
+  </center>
+<br />
   </Container>
 
   <Container>

@@ -2,7 +2,6 @@ import React from 'react';
 import PortfolioCard from './PortfolioCard';
 import CardDeck from 'react-bootstrap/CardDeck';
 import articles from './articles.js';
-import Container from 'react-bootstrap/Container'
 
 class Portfolio extends React.Component {
   constructor() {
