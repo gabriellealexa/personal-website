@@ -15,10 +15,9 @@ class Coding extends React.Component {
 <div className="coding">
 
 <Container>
-          <br />
           <h2>about the developer:</h2>
         
-            I'm a full stack developer with a passion for sexual health and social justice. I love to build rich user experiences, using <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>, well-documented code. My current toolbox includes HTML, CSS, Bootstrap, Sass, JavaScript, Ruby, Ruby on Rails, PostgreSQL, and React.
+            I'm a full stack developer with a passion for sexual health and social justice. I love to build rich user experiences, using <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>, well-documented code. My current toolbox includes HTML, CSS, Bootstrap, Sass, JavaScript, Ruby, Ruby on Rails, PostgreSQL, React, and React Native.
             <br /><br />
             <center>
             <Button className="button-style" href="https://github.com/gabriellealexa">Github</Button> <Button className="button-style" href="https://medium.com/@gabalexa">Medium</Button> <Button className="button-style" href="http://code.gabriellealexa.com/resume.pdf">Resume</Button>
@@ -34,7 +33,7 @@ class Coding extends React.Component {
     <Card.Title>Info Riot (Backend)</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Ruby, Rails</Card.Subtitle>
     <Card.Text>
-      This web application is meant to explore underrepresented history and allow users to reinforce their knowledge.
+      A React Native application that keeps users informed about current events, featuring only sources that are vetted for credibility and bias according to Media Bias Fact Check. News data from NewsAPI.org.
     </Card.Text>
   </Card.Body>
   <Card.Footer>
@@ -47,7 +46,7 @@ class Coding extends React.Component {
     <Card.Title>Info Riot (Frontend)</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">HTML/CSS, JS, React</Card.Subtitle>
     <Card.Text>
-      This web application is meant to explore underrepresented history and allow users to reinforce their knowledge.
+      A React Native application that keeps users informed about current events.
     </Card.Text>
   </Card.Body>
   <Card.Footer>
